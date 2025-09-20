@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>Ronit Roy - Front-End Developer</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+<body>
+    <div class="animated-bg" id="animatedBg"></div>
+    <div class="cursor"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <div class="logo">Royy05</div>
+            <button class="mobile-menu" id="mobileMenu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <div class="nav-social">
+                    <a href="https://www.linkedin.com/in/ronit-roy05/" title="LinkedIn" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/royy-05/" title="GitHub" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://x.com/roy_ronit05" title="X (formerly Twitter)" target="_blank">
+                        <i class="fab fa-x-twitter"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/xo.ronit_xo/" title="Instagram" target="_blank">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:royyronit05@gmail.com" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="floating-shapes">
+            <div class="shape">🚀</div>
+            <div class="shape">💫</div>
+            <div class="shape">⚡</div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1 id="animatedName">Ronit Roy</h1>
+                <p class="typewriter-text" id="typewriterText">Front-End Developer & UI Enthusiast</p>
+                <div class="cta-buttons">
+                    <a href="#projects" class="cta-button">
+                        <span>🚀</span> View My Work
+                    </a>
+                    <a href="#contact" class="cta-button secondary">
+                        <span>📧</span> Get In Touch
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-image" id="profileImageContainer">
+                    <img src="/Assests/dp3.jpg" alt="" class="profile-photo">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <input type="file" id="imageUpload" accept="image/*" style="display: none;">
+
+    <section id="about" class="about fade-in">
+        <h2 class="section-title">About Me</h2>
+        <div class="about-content">
+            <div class="about-intro">
+                <h3>Passionate Developer & Creative Problem Solver</h3>
+                <p>I'm a passionate Web Developer currently pursuing BCA at JIS University. With expertise in
+                    modern web technologies and a keen eye for responsive design, I create engaging digital experiences
+                    that perform exceptionally across all devices.</p>
+                <p>
+                    <strong>Current Role:</strong> Serving as the <b>Full Stack Developer & Lead</b> at
+                    <b>The Rescue Federation®</b>, where I manage end-to-end web development — from
+                    <b>frontend architecture</b> and <b>UI/UX design</b> to <b>backend integration</b>,
+                    <b>database management</b>, and <b>deployment</b>. All projects are developed
+                    under a signed NDA.
+                </p>
+                <p>My goal is to bridge the gap between design and functionality, creating websites that not only look
+                    beautiful but also provide exceptional user experiences that drive results.</p>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="devicon-react-original colored"></i>
+                    <span class="skill-name">React</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-javascript-plain colored"></i>
+                    <span class="skill-name">JavaScript</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-html5-plain colored"></i>
+                    <span class="skill-name">HTML5</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-css3-plain colored"></i>
+                    <span class="skill-name">CSS3</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-bootstrap-plain colored"></i>
+                    <span class="skill-name">Bootstrap</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-nodejs-plain colored"></i>
+                    <span class="skill-name">Node.js</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-express-original colored"></i>
+                    <span class="skill-name">Express.js</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-php-plain colored"></i>
+                    <span class="skill-name">PHP</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-mongodb-plain colored"></i>
+                    <span class="skill-name">MongoDB</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-mysql-plain colored"></i>
+                    <span class="skill-name">MySql</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-git-plain colored"></i>
+                    <span class="skill-name">Git</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-github-original"></i>
+                    <span class="skill-name">GitHub</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-vercel-original colored"></i>
+                    <span class="skill-name">Vercel</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-c-plain colored"></i>
+                    <span class="skill-name">C</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-cplusplus-plain colored"></i>
+                    <span class="skill-name">C++</span>
+                </div>
+                <div class="skill">
+                    <i class="devicon-java-plain colored"></i>
+                    <span class="skill-name">Java</span>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section id="projects" class="projects fade-in">
+        <h2 class="section-title">Featured Projects</h2>
+        <div class="projects-grid">
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/Assests/thinktube.png" alt="ThinkTube AI Screenshot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">ThinkTube AI</h3>
+                    <p class="project-description">
+                        An AI-powered YouTube assistant that helps users summarize, analyze, and extract insights
+                        from videos in real-time. Built with advanced AI models and a clean, responsive UI for
+                        seamless content consumption.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">API</span>
+                        <span class="tag">Vercel</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://thinktube-ai.vercel.app/" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/royy-05/Thinktube-AI" class="project-link secondary"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/Assests/Blogspot.png" alt="Blog Website Screenshot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Responsive Blog Website</h3>
+                    <p class="project-description">
+                        A fully responsive blog platform with dark mode, live search filter,
+                        scroll progress, and lazy loading. Achieved 95+ Lighthouse performance score with modern UI/UX
+                        design patterns and seamless user experience.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">Performance</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://blog-website-seven-brown.vercel.app/" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/royy-05/Blog-Website" class="project-link secondary"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/Assests/Smartewatch.png" alt="Smartwatch Landing Page Screenshot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">Smartwatch Landing Page</h3>
+                    <p class="project-description">
+                        High-converting e-commerce landing page with modern UI, smooth
+                        scrolling, and mobile-responsive design optimized for product promotion. Features interactive
+                        elements, micro-animations, and conversion optimization.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://royy-05.github.io/Smartwatch-Landing-Page/" class="project-link"
+                            target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/royy-05/Smartwatch-Landing-Page" class="project-link secondary"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card">
+                <div class="project-image">
+                    <img src="/Assests/EduTech.png" alt="EduTech Landing Page Screenshot">
+                </div>
+                <div class="project-content">
+                    <h3 class="project-title">EduTech Landing Page</h3>
+                    <p class="project-description">
+                        A modern and engaging educational landing page built for promoting online courses and e-learning
+                        platforms.
+                        Features responsive design, smooth animations, intuitive navigation, and optimized layouts to
+                        enhance user
+                        experience and drive sign-ups.
+                    </p>
+                    <div class="project-tags">
+                        <span class="tag">HTML5</span>
+                        <span class="tag">CSS3</span>
+                        <span class="tag">JavaScript</span>
+                        <span class="tag">Responsive</span>
+                    </div>
+                    <div class="project-actions">
+                        <a href="https://edu-tech-landing-page-sigma.vercel.app/" class="project-link" target="_blank">
+                            <i class="fas fa-external-link-alt"></i>
+                            Live Demo
+                        </a>
+                        <a href="https://github.com/royy-05/Edu-Tech-Landing-Page" class="project-link secondary"
+                            target="_blank">
+                            <i class="fab fa-github"></i>
+                            Source Code
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="contact fade-in">
+        <h2 class="section-title">Get In Touch</h2>
+        <div class="contact-content">
+            <p style="font-size: 1.3rem; margin-bottom: 2rem; color: var(--text-light);">Let's collaborate on creating
+                exceptional web experiences! I'm available for freelance projects and full-time opportunities.</p>
+
+            <div class="contact-info">
+                <h3>Contact Information</h3>
+                <p>📧 royyronit05@gmail.com</p>
+                <p>📱 +91 9874556869</p>
+                <p>📍 Kolkata, India</p>
+                <p>🌐 <a href="https://ronitroy.dev"
+                        style="color: var(--accent); text-decoration: none;">ronitroy.dev</a></p>
+            </div>
+
+            <form class="contact-form" id="contactForm">
+                <div class="form-group">
+                    <input type="text" placeholder="Your Name" required name="name">
+                    <input type="email" placeholder="Your Email" required name="email">
+                </div>
+                <div class="form-group full">
+                    <input type="text" placeholder="Subject" required name="subject">
+                </div>
+                <div class="form-group full">
+                    <textarea placeholder="Your Message" required name="message"></textarea>
+                </div>
+                <button type="submit" class="submit-btn">
+                    <span>🚀</span> Send Message
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/ronit-roy05/" title="LinkedIn" target="_blank">
+                <i class="fab fa-linkedin"></i>
+            </a>
+            <a href="https://github.com/royy-05/" title="GitHub" target="_blank">
+                <i class="fab fa-github"></i>
+            </a>
+            <a href="https://x.com/roy_ronit05" title="X (formerly Twitter)" target="_blank">
+                <i class="fab fa-x-twitter"></i>
+            </a>
+            <a href="https://www.instagram.com/xo.ronit_xo/" title="Instagram" target="_blank">
+                <i class="fab fa-instagram"></i>
+            </a>
+            <a href="mailto:royyronit05@gmail.com" title="Email">
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+        <p style="font-size: 1.1rem; margin-bottom: 1rem;">&copy; 2025 Ronit Roy. All rights reserved.</p>
+        <p style="color: var(--text-light); font-size: 1rem;">Front-End Developer | BCA Student at JIS University</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
